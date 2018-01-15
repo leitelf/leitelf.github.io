@@ -12,7 +12,7 @@ body {
   z-index: 1;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: #33cc66;
+  background-color: #2e6b61;
   padding-top: 120px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -33,11 +33,11 @@ body {
 
 .sidebar .nav-link {
   border-radius: 0;
-  color: #dddddd;
+  color: #cccccc;
 }
 
 .sidebar .nav-link:hover {
-  color: #eeeeee;
+  color: #ededed;
 }
 
 .nav-pills .nav-link.active,  .nav-pills .nav-link.active:hover{
@@ -51,7 +51,7 @@ body {
 
 .img-perfil {
   width: 90%;
-  border: 8px solid #51ec84;
+  border: 8px solid #5aa492;
   margin-bottom: 20px;
 }
 
@@ -111,7 +111,7 @@ section p {
 }
 
 .text-theme {
-  color: #33cc66;
+  color: #2e6b61;
 }
 
 .social-link {
@@ -127,4 +127,13 @@ section p {
 
 .section-end {
   padding-bottom: 40px;
+}
+
+a {
+  color: #5aa492;
+}
+
+a:hover {
+  color: #2e6b61;
+  text-decoration: none;
 }
